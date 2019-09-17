@@ -1,0 +1,30 @@
+.nav-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+  padding-top: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav__item {
+  color: #aaaaaa;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-right: 70px;
+  text-decoration: none;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    &--active,
+    &:hover, &:focus, &:active {
+      color: #111111;
+      font-weight: 600;
+    }
+
+}
