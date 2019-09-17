@@ -23,3 +23,10 @@
   letter-spacing: 0.06px;
   text-align: center;
 }
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 210px;
+  align-items: flex-start;
+}

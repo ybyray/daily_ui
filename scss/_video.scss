@@ -1,0 +1,56 @@
+.video {
+  width: 280px;
+}
+
+.video-title {
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.29px;
+  font-family: "Playfair Display";
+  margin-bottom: 45px;
+}
+
+.video-item {
+  margin-bottom: 36px;
+  position: relative;
+  overflow: hidden;
+}
+
+.play-icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 50px;
+
+    &::before {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -4px;
+      margin-top: -5.5px;
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 5.5px solid transparent;
+      border-left: 8px solid #000000;
+      border-bottom: 5.5px solid transparent;
+    }
+}
+
+.video-item .play-icon {
+  position: absolute;
+  left: -10px;
+  bottom: -15px;
+}
+
+.video-center {
+  position: relative;
+}
+
+.video-center .play-icon {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+}
