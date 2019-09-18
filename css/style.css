@@ -3,6 +3,21 @@ body {
   color: #000;
 }
 
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.header-1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.41px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+
 .nav-wrapper {
   width: 1440px;
   margin: 0 auto;
@@ -42,7 +57,7 @@ body {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #f5e8af;
+  margin-bottom: 230px;
 }
 
 .header-title {
@@ -184,5 +199,65 @@ body {
   position: absolute;
   left: 24px;
   bottom: 32px;
+}
+
+.instructors-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 255px;
+}
+
+.instructor__image {
+  margin-bottom: 30px;
+}
+
+.instructor__name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.instructor__students {
+  color: #2ab738;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.14px;
+  text-align: center;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 190px;
+}
+
+.blog-content {
+  width: 450px;
+}
+
+.blog__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 39px;
+  font-style: italic;
+  letter-spacing: 0.33px;
+}
+
+.blog__description {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  line-height: 31px;
 }
 /*# sourceMappingURL=style.css.map */
