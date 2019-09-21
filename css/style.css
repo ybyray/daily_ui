@@ -260,4 +260,13 @@ body {
   letter-spacing: 0.06px;
   line-height: 31px;
 }
+
+.blog__readmore {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.06px;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
