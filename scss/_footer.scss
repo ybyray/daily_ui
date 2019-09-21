@@ -1,0 +1,37 @@
+.footer {
+  border-top: 1px solid #f2ede7;
+  padding: 48px 0 38px;
+}
+
+.footer-container {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 19.09px;
+  margin-bottom: 15px;
+}
+
+.footer__subtitle {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer-designer {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+   strong{
+    color: #000000;
+    font-weight: 700;
+   }
+}

@@ -17,3 +17,26 @@ body{
   margin-top: 0;
   margin-bottom: 85px;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  padding: 20px 45px;
+  border: 1px solid #41475b;
+    &:hover{
+      background-color: #000;
+      color: #fff;
+      transition: 0.2s ease-in;
+    }
+}
+
+.sta-section {
+  margin-bottom: 145px;
+}
